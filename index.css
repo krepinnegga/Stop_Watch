@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(img/project.1.jfif) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 60%;
+    height: 250px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 3px;
+    overflow: auto;
+}
+
+#timer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 72px;
+    padding: 35px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button i{
+    font-size: 2rem;
+    width: 50px;
+    padding: 10px;
+    color: #fff;
+}
+
+#startStopBtn{
+    background-color: green;
+}
+
+#resetBtn{
+    background-color: red;
+}
+
+#pause{
+    background-color: orange;
+}
